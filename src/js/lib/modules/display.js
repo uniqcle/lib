@@ -17,7 +17,7 @@ $.prototype.hide = function () {
     }
     this[i].style.display = "none";
   }
-  return hide;
+  return this;
 };
 
 $.prototype.toggle = function () {
