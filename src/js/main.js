@@ -8,6 +8,11 @@ function sayHello() {
 //$(".active").off("click", sayHello);
 
 $("button").click(function () {
-  $(this).toggleClass("active");
+  $("div").eq(2).toggleClass("active");
 });
 
+console.log($("div").eq(2).find(".more"));
+console.log($("div").eq(2).find(".more"));
+console.log($("div").eq(2).find(".more"));
+
+console.log($("button").html("Hello"));
